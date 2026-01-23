@@ -25,7 +25,7 @@ function SearchBar({ city, onCityChange, onSearch, loading = false }: SearchBarP
         <button
           onClick={onSearch}
           disabled={loading}
-          className="px-6 py-3 bg-white text-blue-600 rounded-lg font-semibold hover:bg-blue-50 transition-colors duration-200 shadow-lg disabled:opacity-50 disabled:cursor-not-allowed"
+          className="px-6 py-3 mb-8 bg-white text-blue-600 rounded-lg font-semibold hover:bg-blue-50 transition-colors duration-200 shadow-lg disabled:opacity-50 disabled:cursor-not-allowed"
         >
           {loading ? 'Searching...' : 'Search'}
         </button>
